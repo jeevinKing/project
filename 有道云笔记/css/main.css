@@ -1,0 +1,287 @@
+@charset "utf-8";
+body {
+    position: relative;
+}
+.jv-nav {
+    height: 4rem;
+    box-shadow: rgb(157, 165, 171) 0px 0px 2rem;
+    
+}
+.jv-nav .navbar-brand img {
+    width: 10.375rem;
+    height: 2.215rem;
+    margin: 0.9rem 0.9rem 0.9rem 1.5rem;
+}
+.jv-nav .collapse .navbar-nav {
+    margin-left: 2rem;
+}
+.jv-nav .collapse .navbar-nav li {
+    padding: 0.32rem 1rem;
+    text-align: center;
+    line-height: 2.215rem;
+}
+.jv-nav .collapse .navbar-nav .active {
+    border-bottom: 0.1875rem solid #398dee;
+    
+}
+.jv-nav .collapse .navbar-nav li a {
+    color: gray;
+}
+.jv-nav .collapse .navbar-nav li a:hover {
+    color: #333;
+}
+
+
+.slide-bg {
+    position: relative;
+    height: 43.625rem;
+}
+.slide-txt {
+    color: #fff;
+    padding-top: 10rem;
+    padding-left: 10rem;
+}
+.slide-txt h1 {
+    font-size: 5rem;
+}
+.slide-txt p {
+    font-size: 3.5rem;
+} 
+.slide-txt button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+.slide-vedio {
+    margin-top: 2rem;
+}
+.slide-vedio i,
+.slide-vedio span {
+    vertical-align: middle;
+}
+.slide-vedio i {
+    font-size: 3rem;
+}
+.slide-vedio span {
+    font-size: 1rem;
+}
+
+.slide ul {
+    width: 100%;
+    height: 3.75rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: rgba(12,22,43,.8);
+}
+.slide ul li {
+    float: left;
+    width: 25%;
+    line-height: 3.75rem;
+    
+}
+.slide ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.company {
+    border-bottom: 0.0625rem solid #ccc;
+    padding-bottom: 3.5rem;
+}
+.company h1 {
+    margin: 4.5rem auto;
+}
+.company .col-lg-4 p img {
+    width: 10rem;
+    height: 10rem;
+}
+.company .col-lg-4 p:nth-of-type(3) {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.word {
+    border-bottom: 0.0625rem solid #ccc;
+}
+.right-txt {
+    margin-top: 7rem;
+    
+}
+.right-txt p {
+    padding-top: 1.5rem;
+}
+.right-txt p:nth-of-type(2) {
+    line-height: 2rem;
+    color: gray;
+    font-size: 0.875rem;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+}
+.left-pic{
+    width: 25rem;
+    height: 25rem;
+}
+
+
+
+
+.organization {
+    border-bottom: 0.0625rem solid #ccc;
+    padding: 5rem 0 3.5rem 0;
+}
+.organization h1,
+.organization p {
+    padding-bottom: 2rem;
+}
+.organization .img button {
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+
+.download {
+    padding-top: 2rem;
+}
+.download ul li {
+    display: inline-block;
+    padding: 0 4.5rem;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.download ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+.download ul li a:hover {
+    color: gray;
+}
+.download ul li a i,
+.download ul li a span {
+    display: block;
+}
+.download ul li a span {
+    font-size: 1rem;
+}
+.security {
+    height: 4.875rem;
+   background-color: #398dee;
+}
+.security ul li {
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+}
+.security ul li a img {
+    width: 13.25rem;
+    height: 3.125rem;
+}
+footer {
+    background-color: #31353a;
+    padding: 3rem 15rem 2rem 15rem;
+}
+footer ul li {
+    font-size: 0.9rem;
+    color: #fff;
+    line-height: 2rem;
+}
+footer ul li a {
+    color: gray;
+    font-weight: 300;
+    
+}
+footer ul li a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+footer .col-lg-3:nth-of-type(4) ul li:nth-of-type(2) a {
+    display: inline-block;
+    border: 0.0625rem solid gray;
+    padding: 0 0.5rem;
+    margin: 0.5rem auto; 
+}
+footer .col-lg-3:nth-of-type(4) ul li:nth-of-type(2) a:hover {
+    color: #fff;
+    border: 0.0625rem solid #fff;
+}
+footer .col-lg-3:nth-of-type(4) ul li:nth-of-type(5) a i {
+    font-size: 2rem;
+    color: #ccc;
+    text-align: center;
+}
+.aside-right {
+    position: fixed;
+    width: 4rem;
+    height: 20rem;
+    background-color: white;
+    border: 0.0625rem solid #ccc;
+    border-bottom: none;
+    right: 0.8rem;
+    top: 12rem;
+}
+
+
+
+.aside-right li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #577296;
+    height: 4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-bottom: 0.0625rem solid #ccc;
+}
+
+
+.aside-right li a i {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding-top: 0.8rem;
+}
+
+.aside-right li a:hover i::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #398dee;
+    color: #fff;
+    font-size: 1rem;
+    white-space: pre;
+    padding-top: 0.5rem;
+}
+
+.aside-right li:nth-of-type(1) a:hover i::after {
+    content: '在线\A咨询';
+}
+.aside-right li:nth-of-type(2) a:hover i::after {
+    content: 'QQ\A咨询';
+}
+.aside-right li:nth-of-type(3) a:hover i::after {
+    content: '电话\A咨询';
+}
+.aside-right li:nth-of-type(4) a:hover i::after {
+    content: '试用\A企业版';
+}
+.aside-right li:nth-of-type(5) a:hover i::after {
+    content: '返回\A顶部';
+}
+
+.aside-tel {
+    display: none;
+    position: fixed;
+    top: 20rem;
+    right: 5.5rem;
+    width: 12.5rem;
+    height: 4.875rem;
+    background-color: #f6f6f6;
+  
+}
