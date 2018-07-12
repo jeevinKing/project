@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="wrap">
+	<view class="wrap-title">一周天气早知道</view>
+	<view class="wrap-search"><input type='text' placeholder='请输入要查询的城市' bindconfirm='search' /></view>
+	<view class='wrap-info' wx:if="{{show}}">{{msg.city}}：{{msg.ganmao}}</view>
+	<block wx:for="{{msg.forecast}}">
+	    <view class="wrap-item">
+	        <text>{{item.date}}</text>:<text>{{item.high}}</text>:
+	        <text>{{item.fengli}}</text>:
+	        <text>{{item.low}}</text>:
+	        <text>{{item.type}}</text>
+	    </view>
+	</block>
+    <view class='person-info'>
+        <view class='sigle-person'>您来自：{{person.country}} {{person.region}} {{person.city}}
+    </view>
+    <view class='sigle-person'>您使用的网络：{{person.isp}}</view>
+    <view class='sigle-person'>您的IP：{{person.ip}}</view>
+    </view>
+	<view class="error">{{info}}</view>
+</view>
